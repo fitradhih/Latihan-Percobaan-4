@@ -230,8 +230,6 @@ body h2{
 .main-event1 img{
     padding-top: 30px;
     padding-bottom: 0px;
-    width:100%;
-    height: auto;
 }
 
 .main-event1 h3{
@@ -284,6 +282,31 @@ body h2{
     text-align: center;
     font-size: 25px;
     cursor: pointer;
+}
+
+.gambarEventWWEke-1{
+    width:100%;
+    height: auto;
+}
+
+.gambarEventWWEke-2{
+    width:100%;
+    height: auto;
+}
+
+.gambarEventWWEke-3{
+    width:100%;
+    height: auto;
+}
+
+.gambarEventWWEke-4{
+    width:100%;
+    height: auto;
+}
+
+.gambarEventWWEke-5{
+    width:100%;
+    height: auto;
 }
 
 .logoSNMENYC{
