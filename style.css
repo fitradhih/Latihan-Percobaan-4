@@ -43,6 +43,7 @@ body{
 body h2{
     margin: 20px 0 10px 10px;
 }
+
 .macam2event{
     margin:10px;
     display:flex;
@@ -56,6 +57,12 @@ body h2{
     margin: 10px;
     overflow: hidden;
     flex-shrink:0;
+}
+
+.link-event1{
+    text-decoration: none;
+    color:inherit;
+    display: inline-block;
 }
 
 .kotakevent:hover{
@@ -169,7 +176,7 @@ body h2{
 
 .eventdetails2{
     border-radius: 5px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(222, 36, 36);
     flex: 1;
     text-align: center;
     cursor: pointer;
@@ -181,4 +188,70 @@ body h2{
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px 0 10px 0;
+}
+
+/*--------------------------------------------------------PEMBATAS-----------------------------------------------------------*/
+
+.main-event{
+    background-color: rgb(64, 64, 64);
+    color:white;
+    padding: 10px 0;
+}
+
+.main-event1 img{
+    padding-top: 30px;
+    width:100%;
+    height: auto;
+}
+
+.main-event1 h3{
+font-size: 33px;
+    padding: 10px 0;
+}
+
+.main-event1 h4{
+    padding: 15px 0;
+    font-size: 23px;
+}
+
+.main-event1 p{
+    font-size: 20px;
+    padding: 3px 0;
+}
+
+.main-event1 hr{
+    margin: 10px 0;
+    border: 1px solid white;
+}
+
+.buytickets{
+    padding: 10px 0;
+    margin: 16px 0;
+    background-color: rgb(222, 36, 36);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.prioritypass{
+    padding: 10px 0;
+    margin: 16px 0;
+    background-color: rgb(225, 193, 88);
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.howtowatch{
+    padding: 10px 0;
+    margin: 16px 0;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
 }
