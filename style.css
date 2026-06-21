@@ -65,6 +65,36 @@ body h2{
     display: inline-block;
 }
 
+.link-event2{
+    text-decoration: none;
+    color:inherit;
+    display: inline-block;
+}
+
+.link-event3{
+    text-decoration: none;
+    color:inherit;
+    display: inline-block;
+}
+
+.link-event4{
+    text-decoration: none;
+    color:inherit;
+    display: inline-block;
+}
+
+.link-event5{
+    text-decoration: none;
+    color:inherit;
+    display: inline-block;
+}
+
+.link-event6{
+    text-decoration: none;
+    color:inherit;
+    display: inline-block;
+}
+
 .kotakevent:hover{
     transform: scale(1.05);
 }
@@ -195,38 +225,38 @@ body h2{
 .main-event{
     background-color: rgb(64, 64, 64);
     color:white;
-    padding: 10px 0;
 }
 
 .main-event1 img{
     padding-top: 30px;
+    padding-bottom: 0px;
     width:100%;
     height: auto;
 }
 
 .main-event1 h3{
-font-size: 33px;
-    padding: 10px 0;
+    font-size: 33px;
+    padding: 20px 15px;
 }
 
 .main-event1 h4{
-    padding: 15px 0;
+    padding: 10px 15px;
     font-size: 23px;
 }
 
 .main-event1 p{
     font-size: 20px;
-    padding: 3px 0;
+    padding: 10px 15px;
 }
 
 .main-event1 hr{
-    margin: 10px 0;
+    margin: 20px 15px;
     border: 1px solid white;
 }
 
 .buytickets{
     padding: 10px 0;
-    margin: 16px 0;
+    margin: 30px 15px 16px 15px;
     background-color: rgb(222, 36, 36);
     border-radius: 10px;
     text-align: center;
@@ -236,7 +266,7 @@ font-size: 33px;
 
 .prioritypass{
     padding: 10px 0;
-    margin: 16px 0;
+    margin: 30px 15px 16px 15px;
     background-color: rgb(225, 193, 88);
     color: black;
     border-radius: 10px;
@@ -247,11 +277,33 @@ font-size: 33px;
 
 .howtowatch{
     padding: 10px 0;
-    margin: 16px 0;
+    margin: 30px 15px 16px 15px;
     background-color: rgb(255, 255, 255);
     color: black;
     border-radius: 10px;
     text-align: center;
     font-size: 25px;
     cursor: pointer;
+}
+
+.logoSNMENYC{
+    display: block;
+    margin: 0 auto;
+    padding-top:40px;
+    width:50px;
+    height:auto;
+}
+
+.SuperStars{
+    background-color: white;
+    color: black;
+    padding: 50px 15px 0 15px;
+}
+
+.SuperStars h3{
+    font-size: 30px;
+}
+
+.SuperStars hr{
+    border: 1px solid red;
 }
