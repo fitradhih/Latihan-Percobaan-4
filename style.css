@@ -30,8 +30,12 @@
 }
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
+}
+
+.Colorbody{
+    background-color: black;
 }
 
 .GambarIklan2{
@@ -57,12 +61,6 @@ body h2{
     margin: 10px;
     overflow: hidden;
     flex-shrink:0;
-}
-
-.link-event1{
-    text-decoration: none;
-    color:inherit;
-    display: inline-block;
 }
 
 .link-event2{
@@ -318,7 +316,6 @@ body h2{
 }
 
 .SuperStars{
-    background-color: white;
     color: black;
     padding: 50px 15px 0 15px;
 }
@@ -329,4 +326,5 @@ body h2{
 
 .SuperStars hr{
     border: 1px solid red;
+    margin-bottom: 40px;
 }
