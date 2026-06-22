@@ -316,32 +316,12 @@ body h2{
     cursor: pointer;
 }
 
-.gambarEventWWEke-1{
+.gambarEventWWE{
     width:100%;
     height: auto;
 }
 
-.gambarEventWWEke-2{
-    width:100%;
-    height: auto;
-}
-
-.gambarEventWWEke-3{
-    width:100%;
-    height: auto;
-}
-
-.gambarEventWWEke-4{
-    width:100%;
-    height: auto;
-}
-
-.gambarEventWWEke-5{
-    width:100%;
-    height: auto;
-}
-
-.logoSNMENYC{
+.logoEventWWE{
     display: block;
     margin: 0 auto;
     padding-top:40px;
@@ -361,4 +341,88 @@ body h2{
 .SuperStars hr{
     border: 1px solid red;
     margin-bottom: 40px;
+}
+
+@media(min-width:767px) {
+    .CARD1 {
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        gap: 5px;
+        margin-bottom: 10px;
+        margin: 0 20px 10px 20px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .detailevent{
+        background-color: rgba(49, 49, 49, 0.907);
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 10px 0 10px;
+        flex: 0.8;
+        border-right: 2px solid rgb(255, 255, 255);
+        border-left: 2px solid rgb(255, 255, 255);
+    }
+
+    .detailevent p{
+        font-size: 20px;
+    }
+
+    .GambarDE1{
+        max-width: 150px;
+    }
+
+    .GambarDE2{
+        max-width: 50px;
+    }
+
+    .GambarDE3{
+    max-width: 50px;
+    }
+
+    .kotaktiket1{
+        background-color: rgba(41, 35, 35, 0.828);
+        padding-right: 10px;
+        align-items: center;
+        flex: 1;
+        border-right: 2px solid rgb(255, 255, 255);
+        border-left: 2px solid rgb(255, 255, 255);
+    }
+
+    .kotaktiket2{
+        flex-direction: column;
+        margin: 0;
+        flex: 1;
+    }
+
+/* --- TAMPILAN DEFAULT (HP & IPAD) --- 
+/* Sembunyikan gambar laptop saat di layar kecil 
+.iklan-laptop {
+    display: none;
+}
+
+.iklan-mobile-ipad {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* --- TAMPILAN LAPTOP (Media Query) --- 
+@media (min-width: 1024px) {
+    /* Sembunyikan gambar HP/iPad 
+    .iklan-mobile-ipad {
+        display: none;
+    }
+    
+    /* Munculkan gambar khusus laptop 
+    .iklan-laptop {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 1100px; /* Batasi lebar maksimalnya agar proporsional */
+        margin: 0 auto;    /* Buat gambarnya rata tengah */
+    }
+}
 }
